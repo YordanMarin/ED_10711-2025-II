@@ -34,6 +34,8 @@
             this.btnInsertar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.listDatos = new System.Windows.Forms.ListBox();
+            this.btnBuscar = new System.Windows.Forms.Button();
+            this.btnOrdenarA = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -42,7 +44,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(105, 24);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(460, 39);
+            this.label1.Size = new System.Drawing.Size(439, 38);
             this.label1.TabIndex = 0;
             this.label1.Text = "LISTA ENLAZADA SIMPLE";
             // 
@@ -73,6 +75,7 @@
             this.btnInsertar.TabIndex = 3;
             this.btnInsertar.Text = "Insertar";
             this.btnInsertar.UseVisualStyleBackColor = true;
+            this.btnInsertar.Click += new System.EventHandler(this.btnInsertar_Click);
             // 
             // btnEliminar
             // 
@@ -83,6 +86,7 @@
             this.btnEliminar.TabIndex = 4;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // listDatos
             // 
@@ -94,11 +98,35 @@
             this.listDatos.Size = new System.Drawing.Size(335, 429);
             this.listDatos.TabIndex = 5;
             // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscar.Location = new System.Drawing.Point(65, 300);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(151, 52);
+            this.btnBuscar.TabIndex = 6;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            // 
+            // btnOrdenarA
+            // 
+            this.btnOrdenarA.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOrdenarA.Location = new System.Drawing.Point(65, 372);
+            this.btnOrdenarA.Name = "btnOrdenarA";
+            this.btnOrdenarA.Size = new System.Drawing.Size(151, 52);
+            this.btnOrdenarA.TabIndex = 7;
+            this.btnOrdenarA.Text = "Ordenar A";
+            this.btnOrdenarA.UseVisualStyleBackColor = true;
+            this.btnOrdenarA.Click += new System.EventHandler(this.btnOrdenarA_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(681, 633);
+            this.Controls.Add(this.btnOrdenarA);
+            this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.listDatos);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnInsertar);
@@ -120,6 +148,8 @@
         private System.Windows.Forms.Button btnInsertar;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.ListBox listDatos;
+        private System.Windows.Forms.Button btnBuscar;
+        private System.Windows.Forms.Button btnOrdenarA;
     }
 }
 
