@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lista enlazada circular", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lista enlazada doble", "Lista enlazada doble\Lista enlazada doble.csproj", "{A1D16C62-E1E7-44A8-AA44-8076D6DA85A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lista enlazada doble SP", "Lista enlazada doble SP\Lista enlazada doble SP.csproj", "{BB55FAC2-5FE2-43E8-B3A8-30261F333661}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A1D16C62-E1E7-44A8-AA44-8076D6DA85A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1D16C62-E1E7-44A8-AA44-8076D6DA85A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1D16C62-E1E7-44A8-AA44-8076D6DA85A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB55FAC2-5FE2-43E8-B3A8-30261F333661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB55FAC2-5FE2-43E8-B3A8-30261F333661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB55FAC2-5FE2-43E8-B3A8-30261F333661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB55FAC2-5FE2-43E8-B3A8-30261F333661}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
