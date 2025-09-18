@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lista enlazada doble", "Lis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lista enlazada doble SP", "Lista enlazada doble SP\Lista enlazada doble SP.csproj", "{BB55FAC2-5FE2-43E8-B3A8-30261F333661}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pilas-Stack", "Pilas-Stack\Pilas-Stack.csproj", "{53E31C32-0DE7-49D7-8B37-056C435A7A33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{BB55FAC2-5FE2-43E8-B3A8-30261F333661}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB55FAC2-5FE2-43E8-B3A8-30261F333661}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB55FAC2-5FE2-43E8-B3A8-30261F333661}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53E31C32-0DE7-49D7-8B37-056C435A7A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53E31C32-0DE7-49D7-8B37-056C435A7A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53E31C32-0DE7-49D7-8B37-056C435A7A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53E31C32-0DE7-49D7-8B37-056C435A7A33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
