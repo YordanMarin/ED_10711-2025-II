@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pilas-Stack", "Pilas-Stack\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CASO1-T1", "CASO1-T1\CASO1-T1.csproj", "{4F305D42-A52F-463C-A1AE-CE2DFE14ABA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arbol binario", "Arbol binario\Arbol binario.csproj", "{359946AD-EBC2-4512-8488-1563D470C527}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{4F305D42-A52F-463C-A1AE-CE2DFE14ABA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F305D42-A52F-463C-A1AE-CE2DFE14ABA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F305D42-A52F-463C-A1AE-CE2DFE14ABA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{359946AD-EBC2-4512-8488-1563D470C527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{359946AD-EBC2-4512-8488-1563D470C527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{359946AD-EBC2-4512-8488-1563D470C527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{359946AD-EBC2-4512-8488-1563D470C527}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
