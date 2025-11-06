@@ -1,0 +1,11 @@
+C:\Users\UPN\Desktop\Nueva carpeta\ED_10711-2025-II\GrafoAdyacencia\bin\Debug\GrafoAdyacencia.exe.config
+C:\Users\UPN\Desktop\Nueva carpeta\ED_10711-2025-II\GrafoAdyacencia\bin\Debug\GrafoAdyacencia.exe
+C:\Users\UPN\Desktop\Nueva carpeta\ED_10711-2025-II\GrafoAdyacencia\bin\Debug\GrafoAdyacencia.pdb
+C:\Users\UPN\Desktop\Nueva carpeta\ED_10711-2025-II\GrafoAdyacencia\obj\Debug\GrafoAdyacencia.csproj.AssemblyReference.cache
+C:\Users\UPN\Desktop\Nueva carpeta\ED_10711-2025-II\GrafoAdyacencia\obj\Debug\GrafoAdyacencia.Form1.resources
+C:\Users\UPN\Desktop\Nueva carpeta\ED_10711-2025-II\GrafoAdyacencia\obj\Debug\GrafoAdyacencia.Properties.Resources.resources
+C:\Users\UPN\Desktop\Nueva carpeta\ED_10711-2025-II\GrafoAdyacencia\obj\Debug\GrafoAdyacencia.csproj.GenerateResource.cache
+C:\Users\UPN\Desktop\Nueva carpeta\ED_10711-2025-II\GrafoAdyacencia\obj\Debug\GrafoAdyacencia.csproj.CoreCompileInputs.cache
+C:\Users\UPN\Desktop\Nueva carpeta\ED_10711-2025-II\GrafoAdyacencia\obj\Debug\GrafoAdyacencia.exe
+C:\Users\UPN\Desktop\Nueva carpeta\ED_10711-2025-II\GrafoAdyacencia\obj\Debug\GrafoAdyacencia.pdb
+C:\Users\UPN\Desktop\Nueva carpeta\ED_10711-2025-II\GrafoAdyacencia\obj\Debug\GrafoAdyacencia.exe.config
