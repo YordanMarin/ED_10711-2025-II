@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrafoAdyacencia", "GrafoAdy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrafoDijsktra", "GrafoDijsktra\GrafoDijsktra.csproj", "{DADD058B-FD7F-4C5C-B1EF-779C02D82516}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrafoFloyd", "GrafoFloyd\GrafoFloyd.csproj", "{631D6A94-C5FA-4F05-9F1B-C2D243112919}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{DADD058B-FD7F-4C5C-B1EF-779C02D82516}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DADD058B-FD7F-4C5C-B1EF-779C02D82516}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DADD058B-FD7F-4C5C-B1EF-779C02D82516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{631D6A94-C5FA-4F05-9F1B-C2D243112919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{631D6A94-C5FA-4F05-9F1B-C2D243112919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{631D6A94-C5FA-4F05-9F1B-C2D243112919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{631D6A94-C5FA-4F05-9F1B-C2D243112919}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
