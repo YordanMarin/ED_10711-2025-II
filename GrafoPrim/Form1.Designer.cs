@@ -1,4 +1,4 @@
-﻿namespace GrafoDijsktra
+﻿namespace GrafoPrim
 {
     partial class Form1
     {
@@ -39,7 +39,7 @@
             this.btnInsertar = new System.Windows.Forms.Button();
             this.textOrigen = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnDijsktra = new System.Windows.Forms.Button();
+            this.btnprim = new System.Windows.Forms.Button();
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.btnMatriz = new System.Windows.Forms.Button();
@@ -52,22 +52,21 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(235, 85);
+            this.label5.Location = new System.Drawing.Point(256, 81);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(253, 25);
-            this.label5.TabIndex = 55;
+            this.label5.TabIndex = 65;
             this.label5.Text = "Ingrese número de vertices:";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // btnVertices
             // 
             this.btnVertices.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVertices.Location = new System.Drawing.Point(627, 74);
+            this.btnVertices.Location = new System.Drawing.Point(648, 70);
             this.btnVertices.Margin = new System.Windows.Forms.Padding(2);
             this.btnVertices.Name = "btnVertices";
             this.btnVertices.Size = new System.Drawing.Size(218, 39);
-            this.btnVertices.TabIndex = 56;
+            this.btnVertices.TabIndex = 66;
             this.btnVertices.Text = "Insertar";
             this.btnVertices.UseVisualStyleBackColor = true;
             this.btnVertices.Click += new System.EventHandler(this.btnVertices_Click);
@@ -75,12 +74,11 @@
             // textVert
             // 
             this.textVert.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textVert.Location = new System.Drawing.Point(508, 80);
+            this.textVert.Location = new System.Drawing.Point(529, 76);
             this.textVert.Margin = new System.Windows.Forms.Padding(2);
             this.textVert.Name = "textVert";
             this.textVert.Size = new System.Drawing.Size(99, 30);
-            this.textVert.TabIndex = 57;
-            this.textVert.TextChanged += new System.EventHandler(this.textVert_TextChanged);
+            this.textVert.TabIndex = 67;
             // 
             // groupBox1
             // 
@@ -92,13 +90,12 @@
             this.groupBox1.Controls.Add(this.textOrigen);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(12, 61);
+            this.groupBox1.Location = new System.Drawing.Point(33, 57);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(210, 208);
-            this.groupBox1.TabIndex = 60;
+            this.groupBox1.TabIndex = 70;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Aristas";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // textCosto
             // 
@@ -172,47 +169,45 @@
             this.label2.TabIndex = 38;
             this.label2.Text = "Origen:";
             // 
-            // btnDijsktra
+            // btnprim
             // 
-            this.btnDijsktra.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDijsktra.Location = new System.Drawing.Point(234, 400);
-            this.btnDijsktra.Margin = new System.Windows.Forms.Padding(2);
-            this.btnDijsktra.Name = "btnDijsktra";
-            this.btnDijsktra.Size = new System.Drawing.Size(611, 48);
-            this.btnDijsktra.TabIndex = 59;
-            this.btnDijsktra.Text = "Ruta mínima DIJSKTRA";
-            this.btnDijsktra.UseVisualStyleBackColor = true;
-            this.btnDijsktra.Click += new System.EventHandler(this.btnDijsktra_Click);
+            this.btnprim.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnprim.Location = new System.Drawing.Point(255, 396);
+            this.btnprim.Margin = new System.Windows.Forms.Padding(2);
+            this.btnprim.Name = "btnprim";
+            this.btnprim.Size = new System.Drawing.Size(611, 48);
+            this.btnprim.TabIndex = 69;
+            this.btnprim.Text = "Algoritmo de PRIM";
+            this.btnprim.UseVisualStyleBackColor = true;
+            this.btnprim.Click += new System.EventHandler(this.btnprim_Click);
             // 
             // listBox2
             // 
             this.listBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox2.FormattingEnabled = true;
             this.listBox2.ItemHeight = 25;
-            this.listBox2.Location = new System.Drawing.Point(234, 464);
+            this.listBox2.Location = new System.Drawing.Point(255, 460);
             this.listBox2.Name = "listBox2";
             this.listBox2.Size = new System.Drawing.Size(611, 179);
-            this.listBox2.TabIndex = 58;
-            this.listBox2.SelectedIndexChanged += new System.EventHandler(this.listBox2_SelectedIndexChanged);
+            this.listBox2.TabIndex = 68;
             // 
             // richTextBox1
             // 
             this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.Location = new System.Drawing.Point(234, 184);
+            this.richTextBox1.Location = new System.Drawing.Point(255, 180);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(611, 211);
-            this.richTextBox1.TabIndex = 54;
+            this.richTextBox1.TabIndex = 64;
             this.richTextBox1.Text = "";
-            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // btnMatriz
             // 
             this.btnMatriz.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMatriz.Location = new System.Drawing.Point(234, 126);
+            this.btnMatriz.Location = new System.Drawing.Point(255, 122);
             this.btnMatriz.Margin = new System.Windows.Forms.Padding(2);
             this.btnMatriz.Name = "btnMatriz";
             this.btnMatriz.Size = new System.Drawing.Size(611, 48);
-            this.btnMatriz.TabIndex = 53;
+            this.btnMatriz.TabIndex = 63;
             this.btnMatriz.Text = "Matriz de Costo";
             this.btnMatriz.UseVisualStyleBackColor = true;
             this.btnMatriz.Click += new System.EventHandler(this.btnMatriz_Click);
@@ -222,34 +217,32 @@
             this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 25;
-            this.listBox1.Location = new System.Drawing.Point(56, 301);
+            this.listBox1.Location = new System.Drawing.Point(77, 297);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(146, 354);
-            this.listBox1.TabIndex = 52;
-            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            this.listBox1.TabIndex = 62;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(275, 18);
+            this.label1.Location = new System.Drawing.Point(296, 14);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(393, 42);
-            this.label1.TabIndex = 51;
+            this.label1.TabIndex = 61;
             this.label1.Text = "GRAFOS DIRIGIDOS";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(868, 666);
+            this.ClientSize = new System.Drawing.Size(937, 679);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btnVertices);
             this.Controls.Add(this.textVert);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.btnDijsktra);
+            this.Controls.Add(this.btnprim);
             this.Controls.Add(this.listBox2);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.btnMatriz);
@@ -277,7 +270,7 @@
         private System.Windows.Forms.Button btnInsertar;
         private System.Windows.Forms.TextBox textOrigen;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnDijsktra;
+        private System.Windows.Forms.Button btnprim;
         private System.Windows.Forms.ListBox listBox2;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button btnMatriz;

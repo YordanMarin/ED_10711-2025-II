@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace GrafoDijsktra
+namespace GrafoPrim
 {
     public partial class Form1 : Form
     {
@@ -16,7 +16,6 @@ namespace GrafoDijsktra
         {
             InitializeComponent();
         }
-
         Grafo g;
         private void btnVertices_Click(object sender, EventArgs e)
         {
@@ -28,15 +27,6 @@ namespace GrafoDijsktra
                 richTextBox1.Clear();
             }
             else MessageBox.Show("Ingrese un vertice válido");
-        }
-
-        private void btnMatriz_Click(object sender, EventArgs e)
-        {
-            if(g != null)
-            {
-                richTextBox1.Clear();
-                g.imprimirMatriz(richTextBox1);
-            } else MessageBox.Show("Define primero la cantidad de vértices");
         }
 
         private void btnInsertar_Click(object sender, EventArgs e)
@@ -52,53 +42,24 @@ namespace GrafoDijsktra
                 textOrigen.Clear();
                 textDestino.Clear();
                 textCosto.Clear();
-            } else MessageBox.Show("Define primero la cantidad de vértices");
-
-        }
-
-        private void btnDijsktra_Click(object sender, EventArgs e)
-        {
-            if (g != null)
-            {
-                listBox2.Items.Clear();
-                g.Dijsktra(listBox2);
             }
             else MessageBox.Show("Define primero la cantidad de vértices");
         }
 
-        private void label5_Click(object sender, EventArgs e)
+        private void btnMatriz_Click(object sender, EventArgs e)
         {
-
+            if (g != null)
+            {
+                richTextBox1.Clear();
+                g.imprimirMatriz(richTextBox1);
+            }
+            else MessageBox.Show("Define primero la cantidad de vértices");
         }
 
-        private void textVert_TextChanged(object sender, EventArgs e)
+        private void btnprim_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
+            listBox2.Items.Clear();
+            g.Prim(listBox2);
         }
     }
 }
